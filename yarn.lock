@@ -7086,7 +7086,7 @@ __metadata:
     webpack-cli: ^5.0.1
     webpack-dev-server: ^4.13.1
     webpackbar: ^5.0.2
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     "@strapi/strapi": ^4.3.4
   languageName: unknown
@@ -7395,7 +7395,7 @@ __metadata:
     redux: ^4.2.1
     reselect: ^4.1.7
     styled-components: 5.3.3
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7436,7 +7436,7 @@ __metadata:
     styled-components: 5.3.3
     swagger-ui-dist: 4.18.1
     yaml: 1.10.2
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     "@strapi/strapi": ^4.0.0
     react: ^17.0.2
@@ -7464,7 +7464,7 @@ __metadata:
     react-intl: 6.3.2
     react-router-dom: 5.3.4
     styled-components: 5.3.3
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7533,7 +7533,7 @@ __metadata:
     react-router-dom: 5.3.4
     redux: ^4.2.1
     styled-components: 5.3.3
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7603,7 +7603,7 @@ __metadata:
     react-test-renderer: ^17.0.2
     sharp: 0.32.0
     styled-components: 5.3.3
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7647,7 +7647,7 @@ __metadata:
     react-test-renderer: ^17.0.2
     styled-components: 5.3.3
     url-join: 4.0.1
-    yup: ^0.32.9
+    yup: ^0.32.11
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -7823,7 +7823,7 @@ __metadata:
     http-errors: 1.8.1
     lodash: 4.17.21
     p-map: 4.0.0
-    yup: 0.32.9
+    yup: 0.32.11
   languageName: unknown
   linkType: soft
 
@@ -8647,17 +8647,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.165, @types/lodash@npm:^4.14.175":
-  version: 4.14.182
-  resolution: "@types/lodash@npm:4.14.182"
-  checksum: 7dd137aa9dbabd632408bd37009d984655164fa1ecc3f2b6eb94afe35bf0a5852cbab6183148d883e9c73a958b7fec9a9bcf7c8e45d41195add6a18c34958209
-  languageName: node
-  linkType: hard
-
 "@types/lodash@npm:^4.14.167":
   version: 4.14.185
   resolution: "@types/lodash@npm:4.14.185"
   checksum: f81d13da5ecab110ca9c5c7cc2bedc3c9802a6acf668576aecd1b8f4b134ed81d06c15f1e600fb08f05975098280a0d97d30cddfc2cb39ec1c6b56e971ca53b3
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.175":
+  version: 4.14.182
+  resolution: "@types/lodash@npm:4.14.182"
+  checksum: 7dd137aa9dbabd632408bd37009d984655164fa1ecc3f2b6eb94afe35bf0a5852cbab6183148d883e9c73a958b7fec9a9bcf7c8e45d41195add6a18c34958209
   languageName: node
   linkType: hard
 
@@ -21701,7 +21701,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:^4.17.15, lodash-es@npm:^4.17.21":
+"lodash-es@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash-es@npm:4.17.21"
   checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
@@ -32242,22 +32242,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yup@npm:0.32.9":
-  version: 0.32.9
-  resolution: "yup@npm:0.32.9"
-  dependencies:
-    "@babel/runtime": ^7.10.5
-    "@types/lodash": ^4.14.165
-    lodash: ^4.17.20
-    lodash-es: ^4.17.15
-    nanoclone: ^0.2.1
-    property-expr: ^2.0.4
-    toposort: ^2.0.2
-  checksum: 3f33850913a237fb7e59b0b5c71d2cc6bdb1d6b2b01fc24c53ec68b35ad2b95cd49f735532117136495cb57f0ec58f0a7e1f1c55fad685555c7114155170f1ea
-  languageName: node
-  linkType: hard
-
-"yup@npm:^0.32.9":
+"yup@npm:0.32.11, yup@npm:^0.32.11":
   version: 0.32.11
   resolution: "yup@npm:0.32.11"
   dependencies:
